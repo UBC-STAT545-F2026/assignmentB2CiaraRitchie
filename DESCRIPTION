@@ -1,11 +1,15 @@
 Package: assignmentB2CiaraRitchie
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Function for Normalizing Regional Brain Volumes
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Ciara", "Ritchie", , "ciarar@student.ubc.ca", role = c("aut", "cre"))
+Description: This package consists of a function (normalize_volumes.R) that can be used to calculate normalized regional brain volumes relative to total cerebral brain volume (TCV), organizing output by a specified grouping variable, such as cohort or sex.
+Imports: dplyr,
+    magrittr
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
